@@ -3,6 +3,7 @@ package com.spring.application;
 
 import javax.persistence.*;
 
+
 @Entity(name = "chatLog")
 @Table(name = "chatLog")
 public class Message implements Comparable<Message>{
